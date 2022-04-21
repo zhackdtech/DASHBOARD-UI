@@ -40,36 +40,45 @@
             this.label2 = new System.Windows.Forms.Label();
             this.roundedPanel1 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.roundedPanel10 = new DASHBOARD_UI.Controls.RoundedPanel();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.roundedPanel9 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.roundedPanel8 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.label22 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.roundedPanel7 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.label19 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.roundedPanel6 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.label21 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.roundedPanel5 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.roundedPanel4 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -84,27 +93,32 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.roundedPanel2 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.roundedPanel3 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.roundedButton9 = new DASHBOARD_UI.Components.RoundedButton();
             this.pnlTop.SuspendLayout();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.roundedPanel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.roundedPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.roundedPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.roundedPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.roundedPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.roundedPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -296,10 +310,8 @@
             // roundedPanel10
             // 
             this.roundedPanel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
-            this.roundedPanel10.Controls.Add(this.pictureBox15);
-            this.roundedPanel10.Controls.Add(this.label10);
+            this.roundedPanel10.Controls.Add(this.roundedButton9);
             this.roundedPanel10.Controls.Add(this.label9);
-            this.roundedPanel10.Controls.Add(this.pictureBox5);
             this.roundedPanel10.Location = new System.Drawing.Point(682, 18);
             this.roundedPanel10.Name = "roundedPanel10";
             this.roundedPanel10.SetBorder = true;
@@ -312,55 +324,23 @@
             this.roundedPanel10.Size = new System.Drawing.Size(200, 215);
             this.roundedPanel10.TabIndex = 0;
             // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::DASHBOARD_UI.Properties.Resources.asp_42px;
-            this.pictureBox15.Location = new System.Drawing.Point(23, 24);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 109;
-            this.pictureBox15.TabStop = false;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(61, 29);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(85, 23);
-            this.label10.TabIndex = 108;
-            this.label10.Text = "ASP.NET";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Arial", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Silver;
-            this.label9.Location = new System.Drawing.Point(24, 184);
+            this.label9.Location = new System.Drawing.Point(42, 181);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 10);
+            this.label9.Size = new System.Drawing.Size(121, 17);
             this.label9.TabIndex = 107;
-            this.label9.Text = "ASP DOT NET";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = global::DASHBOARD_UI.Properties.Resources.menu_vertical_18px;
-            this.pictureBox5.Location = new System.Drawing.Point(170, 14);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.label9.Text = "Add New Project.";
             // 
             // roundedPanel9
             // 
             this.roundedPanel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel9.Controls.Add(this.label20);
+            this.roundedPanel9.Controls.Add(this.pictureBox19);
             this.roundedPanel9.Controls.Add(this.pictureBox14);
             this.roundedPanel9.Controls.Add(this.label7);
             this.roundedPanel9.Controls.Add(this.pictureBox7);
@@ -376,6 +356,29 @@
             this.roundedPanel9.SetRadius = 15;
             this.roundedPanel9.Size = new System.Drawing.Size(200, 100);
             this.roundedPanel9.TabIndex = 0;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label20.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(209)))), ((int)(((byte)(178)))));
+            this.label20.Location = new System.Drawing.Point(153, 68);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(32, 12);
+            this.label20.TabIndex = 108;
+            this.label20.Text = "100%";
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox19.Image = global::DASHBOARD_UI.Properties.Resources.external_link_18px;
+            this.pictureBox19.Location = new System.Drawing.Point(134, 65);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox19.TabIndex = 0;
+            this.pictureBox19.TabStop = false;
             // 
             // pictureBox14
             // 
@@ -426,9 +429,11 @@
             // roundedPanel8
             // 
             this.roundedPanel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel8.Controls.Add(this.label22);
             this.roundedPanel8.Controls.Add(this.pictureBox13);
             this.roundedPanel8.Controls.Add(this.label8);
             this.roundedPanel8.Controls.Add(this.pictureBox4);
+            this.roundedPanel8.Controls.Add(this.pictureBox21);
             this.roundedPanel8.Controls.Add(this.label17);
             this.roundedPanel8.Location = new System.Drawing.Point(461, 18);
             this.roundedPanel8.Name = "roundedPanel8";
@@ -441,6 +446,19 @@
             this.roundedPanel8.SetRadius = 15;
             this.roundedPanel8.Size = new System.Drawing.Size(200, 100);
             this.roundedPanel8.TabIndex = 0;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label22.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(209)))), ((int)(((byte)(178)))));
+            this.label22.Location = new System.Drawing.Point(153, 69);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(35, 12);
+            this.label22.TabIndex = 110;
+            this.label22.Text = "96.0%";
             // 
             // pictureBox13
             // 
@@ -476,6 +494,16 @@
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
             // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox21.Image = global::DASHBOARD_UI.Properties.Resources.external_link_18px;
+            this.pictureBox21.Location = new System.Drawing.Point(134, 66);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox21.TabIndex = 109;
+            this.pictureBox21.TabStop = false;
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -491,7 +519,9 @@
             // roundedPanel7
             // 
             this.roundedPanel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel7.Controls.Add(this.label19);
             this.roundedPanel7.Controls.Add(this.pictureBox11);
+            this.roundedPanel7.Controls.Add(this.pictureBox18);
             this.roundedPanel7.Controls.Add(this.label5);
             this.roundedPanel7.Controls.Add(this.pictureBox8);
             this.roundedPanel7.Controls.Add(this.label13);
@@ -507,6 +537,19 @@
             this.roundedPanel7.Size = new System.Drawing.Size(200, 100);
             this.roundedPanel7.TabIndex = 0;
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label19.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(209)))), ((int)(((byte)(178)))));
+            this.label19.Location = new System.Drawing.Point(148, 68);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(35, 12);
+            this.label19.TabIndex = 110;
+            this.label19.Text = "44.1%";
+            // 
             // pictureBox11
             // 
             this.pictureBox11.Image = global::DASHBOARD_UI.Properties.Resources.vb_42px;
@@ -516,6 +559,16 @@
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 108;
             this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox18.Image = global::DASHBOARD_UI.Properties.Resources.external_link_18px;
+            this.pictureBox18.Location = new System.Drawing.Point(129, 65);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox18.TabIndex = 109;
+            this.pictureBox18.TabStop = false;
             // 
             // label5
             // 
@@ -556,8 +609,10 @@
             // roundedPanel6
             // 
             this.roundedPanel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel6.Controls.Add(this.label21);
             this.roundedPanel6.Controls.Add(this.pictureBox12);
             this.roundedPanel6.Controls.Add(this.label6);
+            this.roundedPanel6.Controls.Add(this.pictureBox20);
             this.roundedPanel6.Controls.Add(this.pictureBox3);
             this.roundedPanel6.Controls.Add(this.label16);
             this.roundedPanel6.Location = new System.Drawing.Point(240, 18);
@@ -571,6 +626,19 @@
             this.roundedPanel6.SetRadius = 15;
             this.roundedPanel6.Size = new System.Drawing.Size(200, 100);
             this.roundedPanel6.TabIndex = 0;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label21.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(209)))), ((int)(((byte)(178)))));
+            this.label21.Location = new System.Drawing.Point(148, 69);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(35, 12);
+            this.label21.TabIndex = 110;
+            this.label21.Text = "55.3%";
             // 
             // pictureBox12
             // 
@@ -593,6 +661,16 @@
             this.label6.Size = new System.Drawing.Size(83, 10);
             this.label6.TabIndex = 106;
             this.label6.Text = "JAVA SERVER PAGES";
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox20.Image = global::DASHBOARD_UI.Properties.Resources.external_link_18px;
+            this.pictureBox20.Location = new System.Drawing.Point(129, 66);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox20.TabIndex = 109;
+            this.pictureBox20.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -621,6 +699,8 @@
             // roundedPanel5
             // 
             this.roundedPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel5.Controls.Add(this.label18);
+            this.roundedPanel5.Controls.Add(this.pictureBox17);
             this.roundedPanel5.Controls.Add(this.pictureBox10);
             this.roundedPanel5.Controls.Add(this.label4);
             this.roundedPanel5.Controls.Add(this.pictureBox9);
@@ -636,6 +716,29 @@
             this.roundedPanel5.SetRadius = 15;
             this.roundedPanel5.Size = new System.Drawing.Size(200, 100);
             this.roundedPanel5.TabIndex = 0;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label18.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(209)))), ((int)(((byte)(178)))));
+            this.label18.Location = new System.Drawing.Point(154, 67);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(35, 12);
+            this.label18.TabIndex = 110;
+            this.label18.Text = "99.2%";
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox17.Image = global::DASHBOARD_UI.Properties.Resources.external_link_18px;
+            this.pictureBox17.Location = new System.Drawing.Point(134, 64);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox17.TabIndex = 109;
+            this.pictureBox17.TabStop = false;
             // 
             // pictureBox10
             // 
@@ -686,6 +789,8 @@
             // roundedPanel4
             // 
             this.roundedPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel4.Controls.Add(this.label15);
+            this.roundedPanel4.Controls.Add(this.pictureBox16);
             this.roundedPanel4.Controls.Add(this.pictureBox6);
             this.roundedPanel4.Controls.Add(this.label3);
             this.roundedPanel4.Controls.Add(this.pictureBox2);
@@ -701,6 +806,29 @@
             this.roundedPanel4.SetRadius = 15;
             this.roundedPanel4.Size = new System.Drawing.Size(200, 100);
             this.roundedPanel4.TabIndex = 0;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label15.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(209)))), ((int)(((byte)(178)))));
+            this.label15.Location = new System.Drawing.Point(154, 66);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(35, 12);
+            this.label15.TabIndex = 108;
+            this.label15.Text = "88.5%";
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox16.Image = global::DASHBOARD_UI.Properties.Resources.external_link_18px;
+            this.pictureBox16.Location = new System.Drawing.Point(134, 63);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox16.TabIndex = 0;
+            this.pictureBox16.TabStop = false;
             // 
             // pictureBox6
             // 
@@ -920,6 +1048,23 @@
             this.roundedPanel3.Size = new System.Drawing.Size(445, 323);
             this.roundedPanel3.TabIndex = 106;
             // 
+            // roundedButton9
+            // 
+            this.roundedButton9.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedButton9.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.roundedButton9.BorderRadius = 20;
+            this.roundedButton9.BorderSize = 0;
+            this.roundedButton9.FlatAppearance.BorderSize = 0;
+            this.roundedButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton9.ForeColor = System.Drawing.Color.White;
+            this.roundedButton9.Image = global::DASHBOARD_UI.Properties.Resources.plus_96px;
+            this.roundedButton9.Location = new System.Drawing.Point(13, 14);
+            this.roundedButton9.Name = "roundedButton9";
+            this.roundedButton9.Size = new System.Drawing.Size(174, 159);
+            this.roundedButton9.TabIndex = 108;
+            this.roundedButton9.TextColor = System.Drawing.Color.White;
+            this.roundedButton9.UseVisualStyleBackColor = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -945,30 +1090,34 @@
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel10.ResumeLayout(false);
             this.roundedPanel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.roundedPanel9.ResumeLayout(false);
             this.roundedPanel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.roundedPanel8.ResumeLayout(false);
             this.roundedPanel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.roundedPanel7.ResumeLayout(false);
             this.roundedPanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.roundedPanel6.ResumeLayout(false);
             this.roundedPanel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.roundedPanel5.ResumeLayout(false);
             this.roundedPanel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.roundedPanel4.ResumeLayout(false);
             this.roundedPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -1027,8 +1176,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox14;
@@ -1036,7 +1183,19 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private Components.RoundedButton roundedButton9;
     }
 }
 

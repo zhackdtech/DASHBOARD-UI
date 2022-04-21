@@ -227,5 +227,11 @@
   <ItemGroup>
     <None Include="Resources\asp_42px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\external_link_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_96px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

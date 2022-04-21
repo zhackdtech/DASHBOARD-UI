@@ -263,6 +263,16 @@ namespace DASHBOARD_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap external_link_18px {
+            get {
+                object obj = ResourceManager.GetObject("external_link_18px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap external_link_25px {
             get {
                 object obj = ResourceManager.GetObject("external_link_25px", resourceCulture);
@@ -386,6 +396,16 @@ namespace DASHBOARD_UI.Properties {
         internal static System.Drawing.Bitmap notification_35px {
             get {
                 object obj = ResourceManager.GetObject("notification_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plus_96px {
+            get {
+                object obj = ResourceManager.GetObject("plus_96px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
