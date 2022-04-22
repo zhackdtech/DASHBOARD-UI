@@ -260,5 +260,20 @@
   <ItemGroup>
     <None Include="Resources\OBJECTS%404x2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\designer_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical_timeline_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imac_settings_18px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

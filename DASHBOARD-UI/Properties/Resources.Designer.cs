@@ -273,6 +273,26 @@ namespace DASHBOARD_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap database_18px {
+            get {
+                object obj = ResourceManager.GetObject("database_18px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap designer_32px {
+            get {
+                object obj = ResourceManager.GetObject("designer_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap desktop_128px {
             get {
                 object obj = ResourceManager.GetObject("desktop_128px", resourceCulture);
@@ -356,6 +376,16 @@ namespace DASHBOARD_UI.Properties {
         internal static System.Drawing.Bitmap goal_48px {
             get {
                 object obj = ResourceManager.GetObject("goal_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imac_settings_18px {
+            get {
+                object obj = ResourceManager.GetObject("imac_settings_18px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,9 +593,29 @@ namespace DASHBOARD_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user_48px {
+            get {
+                object obj = ResourceManager.GetObject("user_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vb_42px {
             get {
                 object obj = ResourceManager.GetObject("vb_42px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vertical_timeline_18px {
+            get {
+                object obj = ResourceManager.GetObject("vertical_timeline_18px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
