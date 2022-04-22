@@ -185,6 +185,7 @@
             this.btnExit.TabIndex = 101;
             this.btnExit.TextColor = System.Drawing.Color.White;
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // roundedButton2
             // 
