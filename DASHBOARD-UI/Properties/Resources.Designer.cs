@@ -73,6 +73,16 @@ namespace DASHBOARD_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap asp_42px1 {
+            get {
+                object obj = ResourceManager.GetObject("asp_42px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg_dot {
             get {
                 object obj = ResourceManager.GetObject("bg-dot", resourceCulture);
@@ -253,6 +263,26 @@ namespace DASHBOARD_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dashboard_layout_96px {
+            get {
+                object obj = ResourceManager.GetObject("dashboard_layout_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap desktop_128px {
+            get {
+                object obj = ResourceManager.GetObject("desktop_128px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_25px {
             get {
                 object obj = ResourceManager.GetObject("exit_25px", resourceCulture);
@@ -323,6 +353,16 @@ namespace DASHBOARD_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap goal_48px {
+            get {
+                object obj = ResourceManager.GetObject("goal_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap js_42px {
             get {
                 object obj = ResourceManager.GetObject("js_42px", resourceCulture);
@@ -346,6 +386,16 @@ namespace DASHBOARD_UI.Properties {
         internal static System.Drawing.Bitmap kawaii_folders_18px {
             get {
                 object obj = ResourceManager.GetObject("kawaii_folders_18px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_squared_24px {
+            get {
+                object obj = ResourceManager.GetObject("menu_squared_24px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,9 +453,49 @@ namespace DASHBOARD_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OBJECTS_4x {
+            get {
+                object obj = ResourceManager.GetObject("OBJECTS@4x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OBJECTS_4x1 {
+            get {
+                object obj = ResourceManager.GetObject("OBJECTS@4x1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OBJECTS_4x2 {
+            get {
+                object obj = ResourceManager.GetObject("OBJECTS@4x2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap plus_96px {
             get {
                 object obj = ResourceManager.GetObject("plus_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap prototype_128px {
+            get {
+                object obj = ResourceManager.GetObject("prototype_128px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

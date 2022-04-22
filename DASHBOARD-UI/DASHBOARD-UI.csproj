@@ -233,5 +233,32 @@
   <ItemGroup>
     <None Include="Resources\plus_96px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_squared_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prototype_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goal_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asp_42px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_layout_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBJECTS%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBJECTS%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBJECTS%404x2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,7 +30,7 @@
         {
             this.ellipse1 = new DASHBOARD_UI.Components.Ellipse();
             this.roundedButton4 = new DASHBOARD_UI.Components.RoundedButton();
-            this.roundedButton3 = new DASHBOARD_UI.Components.RoundedButton();
+            this.btnExit = new DASHBOARD_UI.Components.RoundedButton();
             this.roundedButton2 = new DASHBOARD_UI.Components.RoundedButton();
             this.roundedButton1 = new DASHBOARD_UI.Components.RoundedButton();
             this.btnUser = new DASHBOARD_UI.Components.RoundedButton();
@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.roundedPanel1 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.roundedPanel10 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.roundedButton9 = new DASHBOARD_UI.Components.RoundedButton();
             this.label9 = new System.Windows.Forms.Label();
             this.roundedPanel9 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.label20 = new System.Windows.Forms.Label();
@@ -92,9 +93,18 @@
             this.pnlSide = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.roundedPanel2 = new DASHBOARD_UI.Controls.RoundedPanel();
-            this.roundedPanel3 = new DASHBOARD_UI.Controls.RoundedPanel();
-            this.roundedButton9 = new DASHBOARD_UI.Components.RoundedButton();
+            this.roundedPanel11 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.roundedButton10 = new DASHBOARD_UI.Components.RoundedButton();
+            this.customTextbox3 = new DASHBOARD_UI.Components.CustomTextbox();
+            this.customTextbox2 = new DASHBOARD_UI.Components.CustomTextbox();
             this.label10 = new System.Windows.Forms.Label();
+            this.roundedButton11 = new DASHBOARD_UI.Components.RoundedButton();
+            this.roundedPanel3 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.roundedPanel12 = new DASHBOARD_UI.Controls.RoundedPanel();
+            this.roundedButton12 = new DASHBOARD_UI.Components.RoundedButton();
+            this.label23 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pnlTop.SuspendLayout();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel10.SuspendLayout();
@@ -125,6 +135,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlSide.SuspendLayout();
             this.roundedPanel2.SuspendLayout();
+            this.roundedPanel11.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.roundedPanel3.SuspendLayout();
+            this.roundedPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // ellipse1
@@ -153,23 +168,23 @@
             this.roundedButton4.TextColor = System.Drawing.Color.Silver;
             this.roundedButton4.UseVisualStyleBackColor = false;
             // 
-            // roundedButton3
+            // btnExit
             // 
-            this.roundedButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
-            this.roundedButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
-            this.roundedButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.roundedButton3.BorderRadius = 10;
-            this.roundedButton3.BorderSize = 0;
-            this.roundedButton3.FlatAppearance.BorderSize = 0;
-            this.roundedButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton3.ForeColor = System.Drawing.Color.White;
-            this.roundedButton3.Image = global::DASHBOARD_UI.Properties.Resources.exit_25px;
-            this.roundedButton3.Location = new System.Drawing.Point(837, 38);
-            this.roundedButton3.Name = "roundedButton3";
-            this.roundedButton3.Size = new System.Drawing.Size(25, 25);
-            this.roundedButton3.TabIndex = 101;
-            this.roundedButton3.TextColor = System.Drawing.Color.White;
-            this.roundedButton3.UseVisualStyleBackColor = false;
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.btnExit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.btnExit.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnExit.BorderRadius = 10;
+            this.btnExit.BorderSize = 0;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Image = global::DASHBOARD_UI.Properties.Resources.exit_25px;
+            this.btnExit.Location = new System.Drawing.Point(837, 38);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(25, 25);
+            this.btnExit.TabIndex = 101;
+            this.btnExit.TextColor = System.Drawing.Color.White;
+            this.btnExit.UseVisualStyleBackColor = false;
             // 
             // roundedButton2
             // 
@@ -254,7 +269,7 @@
             this.pnlTop.BackgroundImage = global::DASHBOARD_UI.Properties.Resources.bg_newsletter;
             this.pnlTop.Controls.Add(this.panel2);
             this.pnlTop.Controls.Add(this.roundedButton4);
-            this.pnlTop.Controls.Add(this.roundedButton3);
+            this.pnlTop.Controls.Add(this.btnExit);
             this.pnlTop.Controls.Add(this.roundedButton2);
             this.pnlTop.Controls.Add(this.roundedButton1);
             this.pnlTop.Controls.Add(this.btnUser);
@@ -325,6 +340,24 @@
             this.roundedPanel10.SetRadius = 15;
             this.roundedPanel10.Size = new System.Drawing.Size(200, 215);
             this.roundedPanel10.TabIndex = 0;
+            // 
+            // roundedButton9
+            // 
+            this.roundedButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedButton9.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedButton9.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.roundedButton9.BorderRadius = 20;
+            this.roundedButton9.BorderSize = 0;
+            this.roundedButton9.FlatAppearance.BorderSize = 0;
+            this.roundedButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton9.ForeColor = System.Drawing.Color.White;
+            this.roundedButton9.Image = global::DASHBOARD_UI.Properties.Resources.plus_96px;
+            this.roundedButton9.Location = new System.Drawing.Point(13, 14);
+            this.roundedButton9.Name = "roundedButton9";
+            this.roundedButton9.Size = new System.Drawing.Size(174, 159);
+            this.roundedButton9.TabIndex = 108;
+            this.roundedButton9.TextColor = System.Drawing.Color.White;
+            this.roundedButton9.UseVisualStyleBackColor = false;
             // 
             // label9
             // 
@@ -1024,7 +1057,7 @@
             // 
             // roundedPanel2
             // 
-            this.roundedPanel2.Controls.Add(this.label10);
+            this.roundedPanel2.Controls.Add(this.roundedPanel11);
             this.roundedPanel2.Location = new System.Drawing.Point(267, 445);
             this.roundedPanel2.Name = "roundedPanel2";
             this.roundedPanel2.SetBorder = false;
@@ -1037,47 +1070,202 @@
             this.roundedPanel2.Size = new System.Drawing.Size(445, 323);
             this.roundedPanel2.TabIndex = 106;
             // 
+            // roundedPanel11
+            // 
+            this.roundedPanel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel11.Controls.Add(this.panel3);
+            this.roundedPanel11.Location = new System.Drawing.Point(19, 21);
+            this.roundedPanel11.Name = "roundedPanel11";
+            this.roundedPanel11.SetBorder = true;
+            this.roundedPanel11.SetBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel11.SetBorderWidth = 5;
+            this.roundedPanel11.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel11.SetIsFill = false;
+            this.roundedPanel11.SetPAdding = 5;
+            this.roundedPanel11.SetRadius = 1;
+            this.roundedPanel11.Size = new System.Drawing.Size(409, 287);
+            this.roundedPanel11.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.roundedButton10);
+            this.panel3.Controls.Add(this.customTextbox3);
+            this.panel3.Controls.Add(this.customTextbox2);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.roundedButton11);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(409, 287);
+            this.panel3.TabIndex = 0;
+            // 
+            // roundedButton10
+            // 
+            this.roundedButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedButton10.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedButton10.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.roundedButton10.BorderRadius = 0;
+            this.roundedButton10.BorderSize = 0;
+            this.roundedButton10.FlatAppearance.BorderSize = 0;
+            this.roundedButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton10.ForeColor = System.Drawing.Color.White;
+            this.roundedButton10.Image = global::DASHBOARD_UI.Properties.Resources.menu_squared_24px;
+            this.roundedButton10.Location = new System.Drawing.Point(371, 13);
+            this.roundedButton10.Name = "roundedButton10";
+            this.roundedButton10.Size = new System.Drawing.Size(24, 24);
+            this.roundedButton10.TabIndex = 106;
+            this.roundedButton10.TextColor = System.Drawing.Color.White;
+            this.roundedButton10.UseVisualStyleBackColor = false;
+            // 
+            // customTextbox3
+            // 
+            this.customTextbox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.customTextbox3.BorderColor = System.Drawing.Color.DimGray;
+            this.customTextbox3.BorderFocusColor = System.Drawing.Color.Silver;
+            this.customTextbox3.BorderRadius = 10;
+            this.customTextbox3.BorderSize = 1;
+            this.customTextbox3.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customTextbox3.ForeColor = System.Drawing.Color.Silver;
+            this.customTextbox3.Location = new System.Drawing.Point(16, 111);
+            this.customTextbox3.Margin = new System.Windows.Forms.Padding(4);
+            this.customTextbox3.Multiline = true;
+            this.customTextbox3.Name = "customTextbox3";
+            this.customTextbox3.Padding = new System.Windows.Forms.Padding(13, 13, 10, 13);
+            this.customTextbox3.PasswordChar = false;
+            this.customTextbox3.PlaceholderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.customTextbox3.PlaceholderText = "";
+            this.customTextbox3.Size = new System.Drawing.Size(379, 129);
+            this.customTextbox3.TabIndex = 110;
+            this.customTextbox3.Texts = "What\'s on your mind?";
+            this.customTextbox3.UnderlinedStyle = false;
+            // 
+            // customTextbox2
+            // 
+            this.customTextbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.customTextbox2.BorderColor = System.Drawing.Color.DimGray;
+            this.customTextbox2.BorderFocusColor = System.Drawing.Color.Silver;
+            this.customTextbox2.BorderRadius = 10;
+            this.customTextbox2.BorderSize = 1;
+            this.customTextbox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customTextbox2.ForeColor = System.Drawing.Color.Silver;
+            this.customTextbox2.Location = new System.Drawing.Point(16, 60);
+            this.customTextbox2.Margin = new System.Windows.Forms.Padding(4);
+            this.customTextbox2.Multiline = false;
+            this.customTextbox2.Name = "customTextbox2";
+            this.customTextbox2.Padding = new System.Windows.Forms.Padding(13, 13, 10, 13);
+            this.customTextbox2.PasswordChar = false;
+            this.customTextbox2.PlaceholderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.customTextbox2.PlaceholderText = "";
+            this.customTextbox2.Size = new System.Drawing.Size(379, 43);
+            this.customTextbox2.TabIndex = 110;
+            this.customTextbox2.Texts = "Title";
+            this.customTextbox2.UnderlinedStyle = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.label10.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Silver;
+            this.label10.Location = new System.Drawing.Point(12, 13);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(118, 22);
+            this.label10.TabIndex = 105;
+            this.label10.Text = "QUICK POST";
+            // 
+            // roundedButton11
+            // 
+            this.roundedButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(100)))), ((int)(((byte)(219)))));
+            this.roundedButton11.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(100)))), ((int)(((byte)(219)))));
+            this.roundedButton11.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.roundedButton11.BorderRadius = 10;
+            this.roundedButton11.BorderSize = 0;
+            this.roundedButton11.FlatAppearance.BorderSize = 0;
+            this.roundedButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton11.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.25F, System.Drawing.FontStyle.Bold);
+            this.roundedButton11.ForeColor = System.Drawing.Color.White;
+            this.roundedButton11.Location = new System.Drawing.Point(268, 247);
+            this.roundedButton11.Name = "roundedButton11";
+            this.roundedButton11.Size = new System.Drawing.Size(127, 37);
+            this.roundedButton11.TabIndex = 109;
+            this.roundedButton11.Text = "POST";
+            this.roundedButton11.TextColor = System.Drawing.Color.White;
+            this.roundedButton11.UseVisualStyleBackColor = false;
+            // 
             // roundedPanel3
             // 
+            this.roundedPanel3.Controls.Add(this.roundedPanel12);
+            this.roundedPanel3.Controls.Add(this.label23);
+            this.roundedPanel3.Controls.Add(this.pictureBox5);
             this.roundedPanel3.Location = new System.Drawing.Point(724, 445);
             this.roundedPanel3.Name = "roundedPanel3";
             this.roundedPanel3.SetBorder = false;
             this.roundedPanel3.SetBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(51)))), ((int)(((byte)(94)))), ((int)(((byte)(129)))));
             this.roundedPanel3.SetBorderWidth = 5;
-            this.roundedPanel3.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
+            this.roundedPanel3.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
             this.roundedPanel3.SetIsFill = true;
             this.roundedPanel3.SetPAdding = 5;
             this.roundedPanel3.SetRadius = 15;
             this.roundedPanel3.Size = new System.Drawing.Size(445, 323);
             this.roundedPanel3.TabIndex = 106;
             // 
-            // roundedButton9
+            // roundedPanel12
             // 
-            this.roundedButton9.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
-            this.roundedButton9.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.roundedButton9.BorderRadius = 20;
-            this.roundedButton9.BorderSize = 0;
-            this.roundedButton9.FlatAppearance.BorderSize = 0;
-            this.roundedButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton9.ForeColor = System.Drawing.Color.White;
-            this.roundedButton9.Image = global::DASHBOARD_UI.Properties.Resources.plus_96px;
-            this.roundedButton9.Location = new System.Drawing.Point(13, 14);
-            this.roundedButton9.Name = "roundedButton9";
-            this.roundedButton9.Size = new System.Drawing.Size(174, 159);
-            this.roundedButton9.TabIndex = 108;
-            this.roundedButton9.TextColor = System.Drawing.Color.White;
-            this.roundedButton9.UseVisualStyleBackColor = false;
+            this.roundedPanel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
+            this.roundedPanel12.Controls.Add(this.roundedButton12);
+            this.roundedPanel12.Location = new System.Drawing.Point(57, 178);
+            this.roundedPanel12.Name = "roundedPanel12";
+            this.roundedPanel12.SetBorder = true;
+            this.roundedPanel12.SetBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
+            this.roundedPanel12.SetBorderWidth = 5;
+            this.roundedPanel12.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
+            this.roundedPanel12.SetIsFill = true;
+            this.roundedPanel12.SetPAdding = 5;
+            this.roundedPanel12.SetRadius = 1;
+            this.roundedPanel12.Size = new System.Drawing.Size(141, 45);
+            this.roundedPanel12.TabIndex = 113;
             // 
-            // label10
+            // roundedButton12
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Silver;
-            this.label10.Location = new System.Drawing.Point(182, 150);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 22);
-            this.label10.TabIndex = 105;
-            this.label10.Text = "CSHARP";
+            this.roundedButton12.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.roundedButton12.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.roundedButton12.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.roundedButton12.BorderRadius = 10;
+            this.roundedButton12.BorderSize = 0;
+            this.roundedButton12.FlatAppearance.BorderSize = 0;
+            this.roundedButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton12.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.25F, System.Drawing.FontStyle.Bold);
+            this.roundedButton12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.roundedButton12.Location = new System.Drawing.Point(7, 3);
+            this.roundedButton12.Name = "roundedButton12";
+            this.roundedButton12.Size = new System.Drawing.Size(127, 37);
+            this.roundedButton12.TabIndex = 110;
+            this.roundedButton12.Text = "BUTTON";
+            this.roundedButton12.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.roundedButton12.UseVisualStyleBackColor = false;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
+            this.label23.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Bold);
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(58, 91);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(159, 72);
+            this.label23.TabIndex = 106;
+            this.label23.Text = "ANOTHER \r\nTEXT";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
+            this.pictureBox5.Image = global::DASHBOARD_UI.Properties.Resources.OBJECTS_4x2;
+            this.pictureBox5.Location = new System.Drawing.Point(223, 66);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(204, 157);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 114;
+            this.pictureBox5.TabStop = false;
             // 
             // Main
             // 
@@ -1138,7 +1326,13 @@
             this.pnlSide.ResumeLayout(false);
             this.pnlSide.PerformLayout();
             this.roundedPanel2.ResumeLayout(false);
-            this.roundedPanel2.PerformLayout();
+            this.roundedPanel11.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.roundedPanel3.ResumeLayout(false);
+            this.roundedPanel3.PerformLayout();
+            this.roundedPanel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1151,7 +1345,7 @@
         private Components.RoundedButton btnUser;
         private Components.RoundedButton roundedButton1;
         private Components.RoundedButton roundedButton2;
-        private Components.RoundedButton roundedButton3;
+        private Components.RoundedButton btnExit;
         private Components.RoundedButton roundedButton4;
         private System.Windows.Forms.Panel pnlTop;
         private System.Windows.Forms.Label label2;
@@ -1212,7 +1406,17 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.PictureBox pictureBox20;
         private Components.RoundedButton roundedButton9;
+        private Components.RoundedButton roundedButton10;
         private System.Windows.Forms.Label label10;
+        private Components.RoundedButton roundedButton11;
+        private Controls.RoundedPanel roundedPanel11;
+        private Components.CustomTextbox customTextbox2;
+        private System.Windows.Forms.Panel panel3;
+        private Components.CustomTextbox customTextbox3;
+        private System.Windows.Forms.Label label23;
+        private Components.RoundedButton roundedButton12;
+        private Controls.RoundedPanel roundedPanel12;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 

@@ -130,14 +130,14 @@
   <data name="user_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dashboard_layout_42px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dashboard_layout_42px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg-newsletter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg-newsletter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="content_18px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\content_18px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg-newsletter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg-newsletter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu_squared_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_squared_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="py_42px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\py_42px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,8 +145,14 @@
   <data name="dashboard_layout_42px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboard_layout_42px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dashboard_layout_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_layout_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="notification_25px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notification_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desktop_128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desktop_128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="notification_29px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notification_29px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +160,11 @@
   <data name="footer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\footer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg-dot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg-dot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prototype_128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prototype_128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asp_42px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asp_42px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exit_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exit_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,6 +174,9 @@
   </data>
   <data name="cs_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cs_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard_layout_42px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_layout_42px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vb_42px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vb_42px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,14 +193,20 @@
   <data name="c_plus_plus_42px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c_plus_plus_42px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="OBJECTS@4x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OBJECTS@4x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="footer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\footer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sms_25px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sms_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sms_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sms_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="goal_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goal_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="notification_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notification_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +214,11 @@
   <data name="external_link_25px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\external_link_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sms_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sms_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg-dot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg-dot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cs_42px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cs_42px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,6 +244,9 @@
   <data name="menu_vertical_18px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_vertical_18px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="OBJECTS@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OBJECTS@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kawaii_folders_18px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kawaii_folders_18px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -231,6 +255,9 @@
   </data>
   <data name="external_link_18px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\external_link_18px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="external_link_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\external_link_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,7 +268,7 @@
   <data name="jsp_42px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jsp_42px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plus_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plus_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OBJECTS@4x2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OBJECTS@4x2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
