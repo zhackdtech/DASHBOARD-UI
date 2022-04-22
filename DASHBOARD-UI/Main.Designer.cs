@@ -94,6 +94,7 @@
             this.roundedPanel2 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.roundedPanel3 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.roundedButton9 = new DASHBOARD_UI.Components.RoundedButton();
+            this.label10 = new System.Windows.Forms.Label();
             this.pnlTop.SuspendLayout();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel10.SuspendLayout();
@@ -123,6 +124,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlSide.SuspendLayout();
+            this.roundedPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // ellipse1
@@ -1022,6 +1024,7 @@
             // 
             // roundedPanel2
             // 
+            this.roundedPanel2.Controls.Add(this.label10);
             this.roundedPanel2.Location = new System.Drawing.Point(267, 445);
             this.roundedPanel2.Name = "roundedPanel2";
             this.roundedPanel2.SetBorder = false;
@@ -1064,6 +1067,17 @@
             this.roundedButton9.TabIndex = 108;
             this.roundedButton9.TextColor = System.Drawing.Color.White;
             this.roundedButton9.UseVisualStyleBackColor = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Silver;
+            this.label10.Location = new System.Drawing.Point(182, 150);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(81, 22);
+            this.label10.TabIndex = 105;
+            this.label10.Text = "CSHARP";
             // 
             // Main
             // 
@@ -1123,6 +1137,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlSide.ResumeLayout(false);
             this.pnlSide.PerformLayout();
+            this.roundedPanel2.ResumeLayout(false);
+            this.roundedPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1196,6 +1212,7 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.PictureBox pictureBox20;
         private Components.RoundedButton roundedButton9;
+        private System.Windows.Forms.Label label10;
     }
 }
 
