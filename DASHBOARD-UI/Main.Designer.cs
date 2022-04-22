@@ -41,7 +41,6 @@
             this.roundedPanel1 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.roundedPanel10 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.roundedButton9 = new DASHBOARD_UI.Components.RoundedButton();
-            this.label9 = new System.Windows.Forms.Label();
             this.roundedPanel9 = new DASHBOARD_UI.Controls.RoundedPanel();
             this.label20 = new System.Windows.Forms.Label();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
@@ -339,7 +338,6 @@
             // 
             this.roundedPanel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(33)))), ((int)(((byte)(40)))));
             this.roundedPanel10.Controls.Add(this.roundedButton9);
-            this.roundedPanel10.Controls.Add(this.label9);
             this.roundedPanel10.Location = new System.Drawing.Point(682, 18);
             this.roundedPanel10.Name = "roundedPanel10";
             this.roundedPanel10.SetBorder = true;
@@ -361,26 +359,17 @@
             this.roundedButton9.BorderSize = 0;
             this.roundedButton9.FlatAppearance.BorderSize = 0;
             this.roundedButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton9.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold);
             this.roundedButton9.ForeColor = System.Drawing.Color.White;
             this.roundedButton9.Image = global::DASHBOARD_UI.Properties.Resources.plus_96px;
             this.roundedButton9.Location = new System.Drawing.Point(13, 14);
             this.roundedButton9.Name = "roundedButton9";
-            this.roundedButton9.Size = new System.Drawing.Size(174, 159);
+            this.roundedButton9.Size = new System.Drawing.Size(174, 189);
             this.roundedButton9.TabIndex = 108;
+            this.roundedButton9.Text = "Add New Project";
+            this.roundedButton9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.roundedButton9.TextColor = System.Drawing.Color.White;
             this.roundedButton9.UseVisualStyleBackColor = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(42, 181);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(121, 17);
-            this.label9.TabIndex = 107;
-            this.label9.Text = "Add New Project.";
             // 
             // roundedPanel9
             // 
@@ -1439,7 +1428,6 @@
             this.pnlTop.ResumeLayout(false);
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel10.ResumeLayout(false);
-            this.roundedPanel10.PerformLayout();
             this.roundedPanel9.ResumeLayout(false);
             this.roundedPanel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
@@ -1537,7 +1525,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
