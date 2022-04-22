@@ -8,6 +8,7 @@ namespace DASHBOARD_UI.Components
 {
     internal class Ellipse : Component
     {
+        private Control hostControl;
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
             (
