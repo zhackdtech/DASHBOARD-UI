@@ -37,7 +37,7 @@ namespace DASHBOARD_UI
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-        //move the 
+        //move the form when the side panel was dragged
         private void pnlSide_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
