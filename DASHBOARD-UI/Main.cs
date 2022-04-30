@@ -27,6 +27,7 @@ namespace DASHBOARD_UI
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
+        //move the top panel when dragged
 
         private void pnlTop_MouseDown(object sender, MouseEventArgs e)
         {
