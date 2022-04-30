@@ -67,6 +67,7 @@ namespace DASHBOARD_UI.Components
             path.CloseFigure();
             return path;
         }
+        //set the rounded region
         private void SetTextBoxRoundedRegion()
         {
             GraphicsPath pathTxt;
@@ -82,6 +83,7 @@ namespace DASHBOARD_UI.Components
             }
             pathTxt.Dispose();
         }
+        //if multiline is true, update the size of the control
         private void UpdateControlHeight()
         {
             if (textBox1.Multiline == false)
@@ -96,7 +98,6 @@ namespace DASHBOARD_UI.Components
         }
         #endregion
         #region -> Properties
-        [Category("RJ Code Advance")]
         public Color BorderColor
         {
             get { return borderColor; }
@@ -107,14 +108,12 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public Color BorderFocusColor
         {
             get { return borderFocusColor; }
             set { borderFocusColor = value; }
         }
 
-        [Category("RJ Code Advance")]
         public int BorderSize
         {
             get { return borderSize; }
@@ -128,7 +127,6 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public bool UnderlinedStyle
         {
             get { return underlinedStyle; }
@@ -138,8 +136,6 @@ namespace DASHBOARD_UI.Components
                 this.Invalidate();
             }
         }
-
-        [Category("RJ Code Advance")]
         public bool PasswordChar
         {
             get { return isPasswordChar; }
@@ -151,14 +147,12 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public bool Multiline
         {
             get { return textBox1.Multiline; }
             set { textBox1.Multiline = value; }
         }
 
-        [Category("RJ Code Advance")]
         public override Color BackColor
         {
             get { return base.BackColor; }
@@ -168,8 +162,6 @@ namespace DASHBOARD_UI.Components
                 textBox1.BackColor = value;
             }
         }
-
-        [Category("RJ Code Advance")]
         public override Color ForeColor
         {
             get { return base.ForeColor; }
@@ -180,7 +172,6 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public override Font Font
         {
             get { return base.Font; }
@@ -193,7 +184,6 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public string Texts
         {
             get
@@ -208,7 +198,6 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public int BorderRadius
         {
             get { return borderRadius; }
@@ -222,7 +211,6 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public Color PlaceholderColor
         {
             get { return placeholderColor; }
@@ -234,7 +222,6 @@ namespace DASHBOARD_UI.Components
             }
         }
 
-        [Category("RJ Code Advance")]
         public string PlaceholderText
         {
             get { return placeholderText; }
