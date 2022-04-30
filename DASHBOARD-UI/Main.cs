@@ -46,7 +46,7 @@ namespace DASHBOARD_UI
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-
+        //on exit button click
         private void btnExit_Click(object sender, EventArgs e)
         {
             Environment.Exit(Environment.ExitCode = 0);
