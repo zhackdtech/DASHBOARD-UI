@@ -17,6 +17,7 @@ namespace DASHBOARD_UI
         {
             InitializeComponent();
         }
+        //mouse down on main panel
 
         private void Main_MouseDown(object sender, MouseEventArgs e)
         {
