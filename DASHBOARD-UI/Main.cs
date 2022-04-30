@@ -27,7 +27,7 @@ namespace DASHBOARD_UI
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-        //move the top panel when dragged
+        //move the form when the top panel was dragged
 
         private void pnlTop_MouseDown(object sender, MouseEventArgs e)
         {
@@ -37,7 +37,7 @@ namespace DASHBOARD_UI
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-
+        //move the 
         private void pnlSide_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
